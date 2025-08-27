@@ -1,11 +1,16 @@
 import React from 'react'
+import MainArea from '../components/CpuUsage'
+import Storage from '../components/Storage';
 
-const UsageTrends = () => {
+
+const Home = () => {
   return (
     <div>
-      
+      <MainArea/>
+      <Storage/>
     </div>
   )
 }
 
-export default UsageTrends
+export default Home
+
