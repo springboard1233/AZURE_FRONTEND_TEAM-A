@@ -1,0 +1,21 @@
+.dashboard-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+}
+@media (max-width: 780px) {
+  .dashboard-container {
+    padding: 0.5rem;
+    width: 95vw;
+  }
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.25rem; }
+}
+@media (max-width: 480px) {
+  .dashboard-container {
+    padding: 0.25rem;
+    width: 99vw;
+  }
+  h1 { font-size: 1.1rem; }
+  h2 { font-size: 1rem; }
+}
