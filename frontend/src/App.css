@@ -1,0 +1,30 @@
+.sidebar {
+  width: 220px;
+  background-color: #2563eb; /* Azure blue */
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #e0f2fe; /* light cyan text */
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.sidebar nav ul li:hover {
+  background-color: #1e40af; /* darker blue */
+  color: #facc15; /* gold highlight */
+}
