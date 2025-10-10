@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "last_updated": "2025-10-06T00:00:00Z",
+    "version": "1.0",
+    "description": "Current capacity inventory for Azure demand forecasting system"
+  },
+  "capacity_inventory": {
+    "eastus": {
+      "Container": {
+        "current_units": 150,
+        "unit_type": "container_instances",
+        "cpu_capacity_per_unit": 2.0,
+        "storage_capacity_per_unit": 100.0,
+        "cost_per_unit_monthly": 45.0,
+        "max_utilization_threshold": 85.0,
+        "safety_buffer_pct": 10.0
+      },
+      "VM": {
+        "current_units": 75,
+        "unit_type": "virtual_machines",
+        "cpu_capacity_per_unit": 4.0,
+        "storage_capacity_per_unit": 500.0,
+        "cost_per_unit_monthly": 120.0,
+        "max_utilization_threshold": 80.0,
+        "safety_buffer_pct": 15.0
+      },
+      "Storage": {
+        "current_units": 5000,
+        "unit_type": "gb_storage",
+        "cpu_capacity_per_unit": 0.0,
+        "storage_capacity_per_unit": 1.0,
+        "cost_per_unit_monthly": 0.25,
+        "max_utilization_threshold": 90.0,
+        "safety_buffer_pct": 5.0
+      }
+    },
+    "westus": {
+      "Container": {
+        "current_units": 120,
+        "unit_type": "container_instances",
+        "cpu_capacity_per_unit": 2.0,
+        "storage_capacity_per_unit": 100.0,
+        "cost_per_unit_monthly": 45.0,
+        "max_utilization_threshold": 85.0,
+        "safety_buffer_pct": 10.0
+      },
+      "VM": {
+        "current_units": 60,
+        "unit_type": "virtual_machines",
+        "cpu_capacity_per_unit": 4.0,
+        "storage_capacity_per_unit": 500.0,
+        "cost_per_unit_monthly": 120.0,
+        "max_utilization_threshold": 80.0,
+        "safety_buffer_pct": 15.0
+      },
+      "Storage": {
+        "current_units": 4200,
+        "unit_type": "gb_storage",
+        "cpu_capacity_per_unit": 0.0,
+        "storage_capacity_per_unit": 1.0,
+        "cost_per_unit_monthly": 0.25,
+        "max_utilization_threshold": 90.0,
+        "safety_buffer_pct": 5.0
+      }
+    },
+    "northeurope": {
+      "Container": {
+        "current_units": 100,
+        "unit_type": "container_instances",
+        "cpu_capacity_per_unit": 2.0,
+        "storage_capacity_per_unit": 100.0,
+        "cost_per_unit_monthly": 50.0,
+        "max_utilization_threshold": 85.0,
+        "safety_buffer_pct": 10.0
+      },
+      "VM": {
+        "current_units": 45,
+        "unit_type": "virtual_machines",
+        "cpu_capacity_per_unit": 4.0,
+        "storage_capacity_per_unit": 500.0,
+        "cost_per_unit_monthly": 130.0,
+        "max_utilization_threshold": 80.0,
+        "safety_buffer_pct": 15.0
+      },
+      "Storage": {
+        "current_units": 3800,
+        "unit_type": "gb_storage",
+        "cpu_capacity_per_unit": 0.0,
+        "storage_capacity_per_unit": 1.0,
+        "cost_per_unit_monthly": 0.28,
+        "max_utilization_threshold": 90.0,
+        "safety_buffer_pct": 5.0
+      }
+    },
+    "southeastasia": {
+      "Container": {
+        "current_units": 80,
+        "unit_type": "container_instances",
+        "cpu_capacity_per_unit": 2.0,
+        "storage_capacity_per_unit": 100.0,
+        "cost_per_unit_monthly": 48.0,
+        "max_utilization_threshold": 85.0,
+        "safety_buffer_pct": 10.0
+      },
+      "VM": {
+        "current_units": 35,
+        "unit_type": "virtual_machines",
+        "cpu_capacity_per_unit": 4.0,
+        "storage_capacity_per_unit": 500.0,
+        "cost_per_unit_monthly": 125.0,
+        "max_utilization_threshold": 80.0,
+        "safety_buffer_pct": 15.0
+      },
+      "Storage": {
+        "current_units": 3200,
+        "unit_type": "gb_storage",
+        "cpu_capacity_per_unit": 0.0,
+        "storage_capacity_per_unit": 1.0,
+        "cost_per_unit_monthly": 0.26,
+        "max_utilization_threshold": 90.0,
+        "safety_buffer_pct": 5.0
+      }
+    }
+  },
+  "business_rules": {
+    "adjustment_thresholds": {
+      "monitor_only": 5.0,
+      "plan_scale": 20.0,
+      "urgent_scale": 50.0
+    },
+    "default_forecast_horizon_days": 30,
+    "capacity_planning_strategies": {
+      "peak_based": "Use maximum forecasted value with safety buffer",
+      "p95_based": "Use 95th percentile of forecast with safety buffer",
+      "average_plus_buffer": "Use average forecast plus 2 standard deviations"
+    },
+    "default_strategy": "peak_based"
+  }
+}

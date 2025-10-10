@@ -1,0 +1,19 @@
+{
+  "train_range": [
+    "2023-01-01",
+    "2023-02-28"
+  ],
+  "val_range": [
+    "2023-03-01",
+    "2023-03-15"
+  ],
+  "test_range": [
+    "2023-03-16",
+    "2023-03-31"
+  ],
+  "train_rows": 708,
+  "val_rows": 180,
+  "test_rows": 192,
+  "frequency": "daily",
+  "target_column": "usage_cpu"
+}

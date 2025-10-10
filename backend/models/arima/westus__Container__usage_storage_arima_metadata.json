@@ -1,0 +1,25 @@
+{
+  "region": "westus",
+  "service": "Container",
+  "target": "usage_storage",
+  "model_type": "ARIMA",
+  "model_order": [
+    0,
+    1,
+    1
+  ],
+  "trained_on": "2025-10-08T19:25:32.942570",
+  "model_version": "1.0",
+  "train_size": 72,
+  "metrics": {
+    "mae": 300.5634342231772,
+    "rmse": 351.0462630441976,
+    "mape": 27.090888435071527,
+    "aic": 1073.850998842774,
+    "test_size": 18
+  },
+  "data_range": {
+    "start_date": "2023-01-01",
+    "end_date": "2023-03-13"
+  }
+}

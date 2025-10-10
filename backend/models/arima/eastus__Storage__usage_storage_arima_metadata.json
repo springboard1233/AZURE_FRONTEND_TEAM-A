@@ -1,0 +1,25 @@
+{
+  "region": "eastus",
+  "service": "Storage",
+  "target": "usage_storage",
+  "model_type": "ARIMA",
+  "model_order": [
+    0,
+    1,
+    1
+  ],
+  "trained_on": "2025-10-08T19:25:17.685453",
+  "model_version": "1.0",
+  "train_size": 72,
+  "metrics": {
+    "mae": 421.929421666213,
+    "rmse": 489.33930492967136,
+    "mape": 30.372968085116607,
+    "aic": 1076.1212277635464,
+    "test_size": 18
+  },
+  "data_range": {
+    "start_date": "2023-01-01",
+    "end_date": "2023-03-13"
+  }
+}

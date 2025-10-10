@@ -1,0 +1,25 @@
+{
+  "region": "southeastasia",
+  "service": "Container",
+  "target": "usage_storage",
+  "model_type": "ARIMA",
+  "model_order": [
+    0,
+    1,
+    1
+  ],
+  "trained_on": "2025-10-08T19:25:27.575781",
+  "model_version": "1.0",
+  "train_size": 72,
+  "metrics": {
+    "mae": 380.44444444444446,
+    "rmse": 440.5285292824193,
+    "mape": 43.441130251589485,
+    "aic": 1080.9181813333844,
+    "test_size": 18
+  },
+  "data_range": {
+    "start_date": "2023-01-01",
+    "end_date": "2023-03-13"
+  }
+}

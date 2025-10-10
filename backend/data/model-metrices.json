@@ -1,0 +1,26 @@
+[
+    {
+        "Model":"ARIMA",
+        "MAE_mean":6.6954308522,
+        "MAE_std":1.2472985195,
+        "RMSE_mean":8.0777615045,
+        "MAPE_mean":9.0269084989,
+        "rank":3.0
+    },
+    {
+        "Model":"LSTM",
+        "MAE_mean":58.4867937127,
+        "MAE_std":1.5357926024,
+        "RMSE_mean":60.1531781956,
+        "MAPE_mean":78.1116644685,
+        "rank":9.0
+    },
+    {
+        "Model":"XGBoost",
+        "MAE_mean":13.0364408169,
+        "MAE_std":1.1139703343,
+        "RMSE_mean":15.571019902,
+        "MAPE_mean":18.4554933541,
+        "rank":6.0
+    }
+]

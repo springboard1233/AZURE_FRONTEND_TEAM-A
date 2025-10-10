@@ -1,0 +1,59 @@
+{
+  "week_start": "2025-09-29",
+  "week_end": "2025-10-06",
+  "forecast_accuracy_trends": {},
+  "capacity_changes_executed": [],
+  "cost_impact_summary": {
+    "total_cost_impact_monthly": -43806.83,
+    "potential_cost_increases": 0.0,
+    "potential_cost_savings": 43806.83,
+    "net_impact": -43806.83
+  },
+  "model_performance": {
+    "total_models": 24,
+    "accuracy_metrics_calculated": 0,
+    "average_accuracy_score": 0.0
+  },
+  "recommendations_summary": [
+    {
+      "region": "eastus",
+      "service": "Container",
+      "target": "usage_cpu",
+      "action": "scale_down",
+      "risk_level": "critical",
+      "cost_impact": -6750.0
+    },
+    {
+      "region": "eastus",
+      "service": "Container",
+      "target": "usage_storage",
+      "action": "scale_down",
+      "risk_level": "critical",
+      "cost_impact": -6750.0
+    },
+    {
+      "region": "eastus",
+      "service": "Storage",
+      "target": "usage_cpu",
+      "action": "monitor",
+      "risk_level": "low",
+      "cost_impact": 0.0
+    },
+    {
+      "region": "eastus",
+      "service": "Storage",
+      "target": "usage_storage",
+      "action": "scale_down",
+      "risk_level": "critical",
+      "cost_impact": -1246.75
+    },
+    {
+      "region": "eastus",
+      "service": "VM",
+      "target": "usage_cpu",
+      "action": "scale_down",
+      "risk_level": "critical",
+      "cost_impact": -9000.0
+    }
+  ]
+}

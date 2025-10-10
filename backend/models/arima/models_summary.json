@@ -1,0 +1,606 @@
+{
+  "training_date": "2025-10-08T19:25:49.395763",
+  "total_models": 24,
+  "models": [
+    {
+      "region": "eastus",
+      "service": "Container",
+      "target": "usage_cpu",
+      "model_type": "ARIMA",
+      "model_order": [
+        1,
+        1,
+        2
+      ],
+      "trained_on": "2025-10-08T19:25:14.856997",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 13.308702673559544,
+        "rmse": 15.130634441574912,
+        "mape": 20.378125058092053,
+        "aic": 586.9395561426867,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "eastus",
+      "service": "Container",
+      "target": "usage_storage",
+      "model_type": "ARIMA",
+      "model_order": [
+        0,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:15.756951",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 460.7915997804455,
+        "rmse": 495.34975747302065,
+        "mape": 34.6001385943881,
+        "aic": 1080.6188636169927,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "eastus",
+      "service": "Storage",
+      "target": "usage_cpu",
+      "model_type": "ARIMA",
+      "model_order": [
+        0,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:16.709738",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 11.728732556737036,
+        "rmse": 14.154063257354462,
+        "mape": 15.99262968800295,
+        "aic": 573.0926889132978,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "eastus",
+      "service": "Storage",
+      "target": "usage_storage",
+      "model_type": "ARIMA",
+      "model_order": [
+        0,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:17.685453",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 421.929421666213,
+        "rmse": 489.33930492967136,
+        "mape": 30.372968085116607,
+        "aic": 1076.1212277635464,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "eastus",
+      "service": "VM",
+      "target": "usage_cpu",
+      "model_type": "ARIMA",
+      "model_order": [
+        1,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:18.224079",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 11.123426186552615,
+        "rmse": 13.674684984423898,
+        "mape": 16.188120426434406,
+        "aic": 575.4171495439889,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "eastus",
+      "service": "VM",
+      "target": "usage_storage",
+      "model_type": "ARIMA",
+      "model_order": [
+        0,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:19.190337",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 370.8333333333333,
+        "rmse": 433.2758903779968,
+        "mape": 40.11067940645841,
+        "aic": 1079.4565706089618,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "northeurope",
+      "service": "Container",
+      "target": "usage_cpu",
+      "model_type": "ARIMA",
+      "model_order": [
+        0,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:20.179370",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 12.40752970631358,
+        "rmse": 14.738451622099438,
+        "mape": 17.67311895614373,
+        "aic": 587.1525401797786,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "northeurope",
+      "service": "Container",
+      "target": "usage_storage",
+      "model_type": "ARIMA",
+      "model_order": [
+        0,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:21.310309",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 413.50672853184136,
+        "rmse": 524.2435528387464,
+        "mape": 29.481841154405842,
+        "aic": 1066.4845122132601,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "northeurope",
+      "service": "Storage",
+      "target": "usage_cpu",
+      "model_type": "ARIMA",
+      "model_order": [
+        0,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:22.499461",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 16.76439673050327,
+        "rmse": 17.93354481666325,
+        "mape": 21.478072140455577,
+        "aic": 591.1818923112362,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "northeurope",
+      "service": "Storage",
+      "target": "usage_storage",
+      "model_type": "ARIMA",
+      "model_order": [
+        0,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:23.505433",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 423.8380592945147,
+        "rmse": 485.9193533189167,
+        "mape": 50.10537135404913,
+        "aic": 1075.541840786607,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "northeurope",
+      "service": "VM",
+      "target": "usage_cpu",
+      "model_type": "ARIMA",
+      "model_order": [
+        1,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:24.290211",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 15.737752598759393,
+        "rmse": 17.054076607314194,
+        "mape": 22.905585348217894,
+        "aic": 590.4713750450888,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "northeurope",
+      "service": "VM",
+      "target": "usage_storage",
+      "model_type": "ARIMA",
+      "model_order": [
+        0,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:25.402834",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 261.22622769520655,
+        "rmse": 326.2092840554734,
+        "mape": 23.385751982219873,
+        "aic": 1067.3378563665872,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "southeastasia",
+      "service": "Container",
+      "target": "usage_cpu",
+      "model_type": "ARIMA",
+      "model_order": [
+        1,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:26.532321",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 12.877837455430129,
+        "rmse": 14.257200817433406,
+        "mape": 21.062096207181433,
+        "aic": 589.4191976577291,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "southeastasia",
+      "service": "Container",
+      "target": "usage_storage",
+      "model_type": "ARIMA",
+      "model_order": [
+        0,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:27.575781",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 380.44444444444446,
+        "rmse": 440.5285292824193,
+        "mape": 43.441130251589485,
+        "aic": 1080.9181813333844,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "southeastasia",
+      "service": "Storage",
+      "target": "usage_cpu",
+      "model_type": "ARIMA",
+      "model_order": [
+        0,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:28.460816",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 13.62133355530049,
+        "rmse": 15.216701954410722,
+        "mape": 18.610660369753568,
+        "aic": 590.6340015580529,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "southeastasia",
+      "service": "Storage",
+      "target": "usage_storage",
+      "model_type": "ARIMA",
+      "model_order": [
+        1,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:29.308465",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 425.84424751419164,
+        "rmse": 466.35089798786413,
+        "mape": 43.7657573803958,
+        "aic": 1072.363741160959,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "southeastasia",
+      "service": "VM",
+      "target": "usage_cpu",
+      "model_type": "ARIMA",
+      "model_order": [
+        0,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:30.216849",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 12.327128587947335,
+        "rmse": 14.320211503166828,
+        "mape": 17.196261106267777,
+        "aic": 595.7792082383897,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "southeastasia",
+      "service": "VM",
+      "target": "usage_storage",
+      "model_type": "ARIMA",
+      "model_order": [
+        0,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:31.030467",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 372.68503717237945,
+        "rmse": 446.57624433584556,
+        "mape": 47.6553002032779,
+        "aic": 1064.0105588555193,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "westus",
+      "service": "Container",
+      "target": "usage_cpu",
+      "model_type": "ARIMA",
+      "model_order": [
+        0,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:32.019041",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 11.953578985808779,
+        "rmse": 14.340538362311447,
+        "mape": 17.813390601904675,
+        "aic": 591.7622866162128,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "westus",
+      "service": "Container",
+      "target": "usage_storage",
+      "model_type": "ARIMA",
+      "model_order": [
+        0,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:32.942570",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 300.5634342231772,
+        "rmse": 351.0462630441976,
+        "mape": 27.090888435071527,
+        "aic": 1073.850998842774,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "westus",
+      "service": "Storage",
+      "target": "usage_cpu",
+      "model_type": "ARIMA",
+      "model_order": [
+        0,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:34.014015",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 12.218930852742126,
+        "rmse": 14.570838228516127,
+        "mape": 16.750901744564885,
+        "aic": 580.9018019209316,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "westus",
+      "service": "Storage",
+      "target": "usage_storage",
+      "model_type": "ARIMA",
+      "model_order": [
+        0,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:35.225415",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 386.22426235654774,
+        "rmse": 440.753904087711,
+        "mape": 45.70861827611988,
+        "aic": 1051.59819028516,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "westus",
+      "service": "VM",
+      "target": "usage_cpu",
+      "model_type": "ARIMA",
+      "model_order": [
+        0,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:36.090759",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 12.292166145152672,
+        "rmse": 14.05735962248972,
+        "mape": 16.527910664110998,
+        "aic": 602.6528602435229,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    },
+    {
+      "region": "westus",
+      "service": "VM",
+      "target": "usage_storage",
+      "model_type": "ARIMA",
+      "model_order": [
+        1,
+        1,
+        1
+      ],
+      "trained_on": "2025-10-08T19:25:37.120460",
+      "model_version": "1.0",
+      "train_size": 72,
+      "metrics": {
+        "mae": 263.2535264248724,
+        "rmse": 309.5294221020624,
+        "mape": 19.770772804722213,
+        "aic": 1058.774161311844,
+        "test_size": 18
+      },
+      "data_range": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-03-13"
+      }
+    }
+  ]
+}

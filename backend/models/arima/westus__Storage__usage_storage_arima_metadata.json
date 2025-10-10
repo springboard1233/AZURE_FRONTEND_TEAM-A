@@ -1,0 +1,25 @@
+{
+  "region": "westus",
+  "service": "Storage",
+  "target": "usage_storage",
+  "model_type": "ARIMA",
+  "model_order": [
+    0,
+    1,
+    1
+  ],
+  "trained_on": "2025-10-08T19:25:35.225415",
+  "model_version": "1.0",
+  "train_size": 72,
+  "metrics": {
+    "mae": 386.22426235654774,
+    "rmse": 440.753904087711,
+    "mape": 45.70861827611988,
+    "aic": 1051.59819028516,
+    "test_size": 18
+  },
+  "data_range": {
+    "start_date": "2023-01-01",
+    "end_date": "2023-03-13"
+  }
+}

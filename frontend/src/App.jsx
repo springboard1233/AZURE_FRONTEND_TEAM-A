@@ -8,6 +8,10 @@ import Reports from './pages/Reports'
 import Header from './components/Header'
 import {Chart as ChartJS} from "chart.js/auto"
 import Footer from './components/Footer'
+import Insights from './pages/Insights'
+import FeatureData from './pages/FeatureData'
+import Capacity_planning from './pages/Capacity_planning'
+import Monitoring from './pages/Monitoring'
 
 const App = () => {
   return (
@@ -21,6 +25,10 @@ const App = () => {
             <Route path='/usage-trends' element={<UsageTrends/>}/>
             <Route path='/forecasts' element={<Forecasts/>}/>
             <Route path='/reports' element={<Reports/>}/>
+            <Route path='/insights' element={<Insights/>}/>
+            <Route path='/featuredata' element={<FeatureData/>}/>
+            <Route path='/capacity-planning' element={<Capacity_planning/>}/>
+            <Route path='/monitoring' element={<Monitoring/>}/>
           </Routes>
         </div>
       </div>

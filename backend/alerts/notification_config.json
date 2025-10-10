@@ -1,0 +1,13 @@
+{
+  "smtp_server": "smtp.gmail.com",
+  "smtp_port": 587,
+  "smtp_username": null,
+  "smtp_password": null,
+  "from_email": null,
+  "to_emails": null,
+  "critical_escalation_minutes": 30,
+  "warning_escalation_minutes": 60,
+  "max_escalations": 3,
+  "duplicate_suppression_minutes": 30,
+  "maintenance_mode": false
+}

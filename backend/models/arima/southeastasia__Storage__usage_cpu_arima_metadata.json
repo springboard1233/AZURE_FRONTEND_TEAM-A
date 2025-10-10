@@ -1,0 +1,25 @@
+{
+  "region": "southeastasia",
+  "service": "Storage",
+  "target": "usage_cpu",
+  "model_type": "ARIMA",
+  "model_order": [
+    0,
+    1,
+    1
+  ],
+  "trained_on": "2025-10-08T19:25:28.460816",
+  "model_version": "1.0",
+  "train_size": 72,
+  "metrics": {
+    "mae": 13.62133355530049,
+    "rmse": 15.216701954410722,
+    "mape": 18.610660369753568,
+    "aic": 590.6340015580529,
+    "test_size": 18
+  },
+  "data_range": {
+    "start_date": "2023-01-01",
+    "end_date": "2023-03-13"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "region": "eastus",
+  "service": "Container",
+  "target": "usage_cpu",
+  "model_type": "ARIMA",
+  "model_order": [
+    1,
+    1,
+    2
+  ],
+  "trained_on": "2025-10-08T19:25:14.856997",
+  "model_version": "1.0",
+  "train_size": 72,
+  "metrics": {
+    "mae": 13.308702673559544,
+    "rmse": 15.130634441574912,
+    "mape": 20.378125058092053,
+    "aic": 586.9395561426867,
+    "test_size": 18
+  },
+  "data_range": {
+    "start_date": "2023-01-01",
+    "end_date": "2023-03-13"
+  }
+}

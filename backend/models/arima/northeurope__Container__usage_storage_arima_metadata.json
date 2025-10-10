@@ -1,0 +1,25 @@
+{
+  "region": "northeurope",
+  "service": "Container",
+  "target": "usage_storage",
+  "model_type": "ARIMA",
+  "model_order": [
+    0,
+    1,
+    1
+  ],
+  "trained_on": "2025-10-08T19:25:21.310309",
+  "model_version": "1.0",
+  "train_size": 72,
+  "metrics": {
+    "mae": 413.50672853184136,
+    "rmse": 524.2435528387464,
+    "mape": 29.481841154405842,
+    "aic": 1066.4845122132601,
+    "test_size": 18
+  },
+  "data_range": {
+    "start_date": "2023-01-01",
+    "end_date": "2023-03-13"
+  }
+}

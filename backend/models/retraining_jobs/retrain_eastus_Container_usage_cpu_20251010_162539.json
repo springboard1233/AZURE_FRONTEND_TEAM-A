@@ -1,0 +1,17 @@
+{
+  "job_id": "retrain_eastus_Container_usage_cpu_20251010_162539",
+  "region": "eastus",
+  "service": "Container",
+  "target": "usage_cpu",
+  "trigger": "manual",
+  "status": "failed",
+  "created_at": "2025-10-10T16:25:39.806013",
+  "started_at": "2025-10-10T16:25:39.808018",
+  "completed_at": "2025-10-10T16:25:39.822276",
+  "old_model_path": null,
+  "new_model_path": null,
+  "backup_path": null,
+  "validation_metrics": null,
+  "error_message": "Failed to load training data",
+  "rollback_reason": null
+}

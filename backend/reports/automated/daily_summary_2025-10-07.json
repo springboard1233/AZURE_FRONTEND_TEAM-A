@@ -1,0 +1,268 @@
+{
+  "date": "2025-10-07",
+  "total_forecasts_generated": 0,
+  "regions_with_shortages": [],
+  "urgent_capacity_actions": [],
+  "top_risks": [
+    {
+      "region": "eastus",
+      "service": "Container",
+      "target": "usage_cpu",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.66,
+      "cost_impact": -6750.0,
+      "recommendation": "Scale down by 150 container_instances to optimize costs (-99.7%)"
+    },
+    {
+      "region": "eastus",
+      "service": "Container",
+      "target": "usage_storage",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.9,
+      "cost_impact": -6750.0,
+      "recommendation": "Scale down by 150 container_instances to optimize costs (-99.9%)"
+    },
+    {
+      "region": "eastus",
+      "service": "Storage",
+      "target": "usage_storage",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.72,
+      "cost_impact": -1246.75,
+      "recommendation": "Scale down by 4987 gb_storage to optimize costs (-99.7%)"
+    },
+    {
+      "region": "eastus",
+      "service": "VM",
+      "target": "usage_cpu",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.68,
+      "cost_impact": -9000.0,
+      "recommendation": "Scale down by 75 virtual_machines to optimize costs (-99.7%)"
+    },
+    {
+      "region": "eastus",
+      "service": "VM",
+      "target": "usage_storage",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.95,
+      "cost_impact": -9000.0,
+      "recommendation": "Scale down by 75 virtual_machines to optimize costs (-100.0%)"
+    },
+    {
+      "region": "northeurope",
+      "service": "Container",
+      "target": "usage_cpu",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.52,
+      "cost_impact": -5000.0,
+      "recommendation": "Scale down by 100 container_instances to optimize costs (-99.5%)"
+    },
+    {
+      "region": "northeurope",
+      "service": "Container",
+      "target": "usage_storage",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.87,
+      "cost_impact": -5000.0,
+      "recommendation": "Scale down by 100 container_instances to optimize costs (-99.9%)"
+    },
+    {
+      "region": "northeurope",
+      "service": "Storage",
+      "target": "usage_storage",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.61,
+      "cost_impact": -1060.08,
+      "recommendation": "Scale down by 3786 gb_storage to optimize costs (-99.6%)"
+    },
+    {
+      "region": "northeurope",
+      "service": "VM",
+      "target": "usage_cpu",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.38,
+      "cost_impact": -5850.0,
+      "recommendation": "Scale down by 45 virtual_machines to optimize costs (-99.4%)"
+    },
+    {
+      "region": "northeurope",
+      "service": "VM",
+      "target": "usage_storage",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.92,
+      "cost_impact": -5850.0,
+      "recommendation": "Scale down by 45 virtual_machines to optimize costs (-99.9%)"
+    }
+  ],
+  "recommended_adjustments": [
+    {
+      "region": "eastus",
+      "service": "Container",
+      "target": "usage_cpu",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.66,
+      "cost_impact": -6750.0,
+      "recommendation": "Scale down by 150 container_instances to optimize costs (-99.7%)"
+    },
+    {
+      "region": "eastus",
+      "service": "Container",
+      "target": "usage_storage",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.9,
+      "cost_impact": -6750.0,
+      "recommendation": "Scale down by 150 container_instances to optimize costs (-99.9%)"
+    },
+    {
+      "region": "eastus",
+      "service": "Storage",
+      "target": "usage_cpu",
+      "risk_level": "low",
+      "action_type": "monitor",
+      "gap_percentage": 0.0,
+      "cost_impact": 0.0,
+      "recommendation": "Monitor only - capacity within acceptable range (+0.0%)"
+    },
+    {
+      "region": "eastus",
+      "service": "Storage",
+      "target": "usage_storage",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.72,
+      "cost_impact": -1246.75,
+      "recommendation": "Scale down by 4987 gb_storage to optimize costs (-99.7%)"
+    },
+    {
+      "region": "eastus",
+      "service": "VM",
+      "target": "usage_cpu",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.68,
+      "cost_impact": -9000.0,
+      "recommendation": "Scale down by 75 virtual_machines to optimize costs (-99.7%)"
+    },
+    {
+      "region": "eastus",
+      "service": "VM",
+      "target": "usage_storage",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.95,
+      "cost_impact": -9000.0,
+      "recommendation": "Scale down by 75 virtual_machines to optimize costs (-100.0%)"
+    },
+    {
+      "region": "northeurope",
+      "service": "Container",
+      "target": "usage_cpu",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.52,
+      "cost_impact": -5000.0,
+      "recommendation": "Scale down by 100 container_instances to optimize costs (-99.5%)"
+    },
+    {
+      "region": "northeurope",
+      "service": "Container",
+      "target": "usage_storage",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.87,
+      "cost_impact": -5000.0,
+      "recommendation": "Scale down by 100 container_instances to optimize costs (-99.9%)"
+    },
+    {
+      "region": "northeurope",
+      "service": "Storage",
+      "target": "usage_cpu",
+      "risk_level": "low",
+      "action_type": "monitor",
+      "gap_percentage": 0.0,
+      "cost_impact": 0.0,
+      "recommendation": "Monitor only - capacity within acceptable range (+0.0%)"
+    },
+    {
+      "region": "northeurope",
+      "service": "Storage",
+      "target": "usage_storage",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.61,
+      "cost_impact": -1060.08,
+      "recommendation": "Scale down by 3786 gb_storage to optimize costs (-99.6%)"
+    },
+    {
+      "region": "northeurope",
+      "service": "VM",
+      "target": "usage_cpu",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.38,
+      "cost_impact": -5850.0,
+      "recommendation": "Scale down by 45 virtual_machines to optimize costs (-99.4%)"
+    },
+    {
+      "region": "northeurope",
+      "service": "VM",
+      "target": "usage_storage",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.92,
+      "cost_impact": -5850.0,
+      "recommendation": "Scale down by 45 virtual_machines to optimize costs (-99.9%)"
+    },
+    {
+      "region": "southeastasia",
+      "service": "Container",
+      "target": "usage_cpu",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.4,
+      "cost_impact": -3840.0,
+      "recommendation": "Scale down by 80 container_instances to optimize costs (-99.4%)"
+    },
+    {
+      "region": "southeastasia",
+      "service": "Container",
+      "target": "usage_storage",
+      "risk_level": "critical",
+      "action_type": "scale_down",
+      "gap_percentage": -99.8,
+      "cost_impact": -3840.0,
+      "recommendation": "Scale down by 80 container_instances to optimize costs (-99.8%)"
+    },
+    {
+      "region": "southeastasia",
+      "service": "Storage",
+      "target": "usage_cpu",
+      "risk_level": "low",
+      "action_type": "monitor",
+      "gap_percentage": 0.0,
+      "cost_impact": 0.0,
+      "recommendation": "Monitor only - capacity within acceptable range (+0.0%)"
+    }
+  ],
+  "system_health": {
+    "total_runs": 0,
+    "successful_runs": 0,
+    "failed_runs": 0,
+    "success_rate": 0,
+    "total_forecasts_generated": 0,
+    "models_available": 24
+  }
+}

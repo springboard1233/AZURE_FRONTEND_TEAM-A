@@ -1,0 +1,15 @@
+Daily Capacity Planning Summary,2025-10-07
+
+System Health
+Total Runs,0
+Successful Runs,0
+Failed Runs,0
+Success Rate,0
+Total Forecasts Generated,0
+Models Available,24
+
+Regions with Capacity Shortages
+Region,Service,Target,Gap %,Risk Level,Cost Impact
+
+Urgent Capacity Actions Required
+Region,Service,Target,Action,Cost Impact,Recommendation
